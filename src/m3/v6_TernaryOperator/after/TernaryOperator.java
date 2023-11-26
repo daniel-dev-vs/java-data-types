@@ -30,5 +30,6 @@ public class TernaryOperator {
 
         out.println(strValue);
 
+
     }
 }

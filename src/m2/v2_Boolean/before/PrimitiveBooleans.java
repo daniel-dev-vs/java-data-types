@@ -7,6 +7,11 @@ public class PrimitiveBooleans {
         boolean flag = true;
         flag = false;
 
+
+        //you cannot convert primitive boolean to or for any value.
+
+        int integer = flag ? 1 : 0;
         out.println(flag);
+        out.println(integer);
     }
 }

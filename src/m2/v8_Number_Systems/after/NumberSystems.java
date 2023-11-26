@@ -44,5 +44,12 @@ public class NumberSystems {
 
         */
 
+        int h = 0b110101;
+
+        out.println(h);
+        out.println(h==53);
+        out.println(Integer.toBinaryString(h));
+
+
     }
 }
